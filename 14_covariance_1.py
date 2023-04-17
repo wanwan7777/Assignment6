@@ -1,6 +1,3 @@
-#
-# Covariance for Python program
-#
 import statistics, math
 
 def my_covariance(input_x, input_y):
@@ -28,5 +25,5 @@ answer = my_covariance(input_x, input_y)
 answer = round(answer, 2)
 
 # 3. Output
-print(f'Answer: {answer}')
+print(f'Convariance: {answer}')
 
