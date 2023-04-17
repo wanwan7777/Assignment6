@@ -1,14 +1,14 @@
 import statistics, math
 
 def my_covariance(input_x, input_y):
-    print(f'Input: {input_x, input_y}')
+    print(f'Input x: {input_x}, Input y : {input_y}')
     sum = 0
     cov = 0
 
     length = len(input_x )
     mean_x = statistics.mean(input_x)
     mean_y = statistics.mean(input_y)
-    print(f'Mean: {mean_x,mean_y}')
+    print(f'Mean x : {mean_x} ,Mean y = {mean_y}')
 
     for index in range (len(input_x)):
         sum += (input_x[index] - mean_x) * (input_y[index] - mean_y)
